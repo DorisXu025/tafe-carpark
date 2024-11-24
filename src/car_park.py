@@ -4,6 +4,8 @@ from pathlib import Path
 from datetime import datetime # we'll use this to timestamp entries
 import json
 
+
+
 class CarPark:
     def __init__(self, location='Unknown', capacity=500, plates=None, sensors=None, displays=None, log_file=Path("log.txt")):
         self.location = location

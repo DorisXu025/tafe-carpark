@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 
 
+
 class Sensor:
     def __init__(self, id, is_active=False, car_park="Unknown"):
         self.id = id
