@@ -1,6 +1,6 @@
 import unittest
 from car_park import CarPark
-
+from pathlib import Path
 
 class TestCarPark(unittest.TestCase):
       def setUp(self):
@@ -43,9 +43,7 @@ class TestCarPark(unittest.TestCase):
          with self.assertRaises(ValueError):
             self.car_park.remove_car("NO-1")
 
-
-      # for sensor unit test
-      def test_register_raises_type_error(self):
+      def test_register_raises_type_error(self): # for sensor unit test
          with self.assertRaises(TypeError):
             self.car_park.register("Not a Sensor or Display")
 
