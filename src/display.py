@@ -11,3 +11,7 @@ class Display:
     def __str__(self):
         display_info = f"{id}: Welcome to the {car_park}"
         return display_info
+
+    def update(self, data):
+        for key, value in data.items():
+            print(f"{key}: {value}")
