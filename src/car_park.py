@@ -3,7 +3,7 @@ from display import Display
 
 
 class CarPark:
-    def __init__(self, location='Unknown', capacity, plates=None, sensors=None, displays=None):
+    def __init__(self, location='Unknown', capacity=500, plates=None, sensors=None, displays=None):
         self.location = location
         self.capacity = capacity
         self.sensors = sensors or []  # uses the first value if not None, otherwise uses the second value
@@ -29,6 +29,14 @@ class CarPark:
     def remove_car(self, plate):
         self.plates.remove(plate)
         self.update_displays()
+
+    def update_displays(self):
+        data = {
+            "available_bays": self.available_bays,
+            "temperature": 25
+        }
+        for display in self.displays:
+            display.update(data)
 
     @property
     def available_bays(self):
