@@ -1,7 +1,26 @@
+
+"""
+Test Module for Display
+------------------------
+
+This module contains unit tests for the `Display` class to verify its functionality and interactions with the `CarPark` class.
+
+Classes:
+    TestDisplay: A unittest test case class for testing the `Display` class.
+
+Test Methods:
+    setUp(): Prepares a `Display` instance and associated `CarPark` for testing.
+    test_display_initialized_with_all_attributes(): Tests the initialization of a `Display` object with default and custom attributes.
+    test_update(): Verifies that the `update` method correctly updates the display's attributes.
+
+Usage:
+    Run the tests using the unittest module.
+"""
+
+
 import unittest
 from display import Display
 from car_park import CarPark
-
 
 
 class TestDisplay(unittest.TestCase):

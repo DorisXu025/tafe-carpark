@@ -1,8 +1,35 @@
+
+"""
+Test Module for CarPark
+------------------------
+
+This module contains unit tests for the `CarPark` class to ensure its functionality and correctness.
+The tests cover initialization, car entry/exit operations, logging, and registration of components.
+
+Classes:
+    TestCarPark: A unittest test case class for testing the `CarPark` class.
+
+Test Methods:
+    setUp(): Prepares a `CarPark` instance for testing.
+    test_car_park_initialized_with_all_attributes(): Tests the initialization of a `CarPark` object with default and custom attributes.
+    test_add_car(): Verifies adding a car updates the plates and available bays.
+    test_remove_car(): Verifies removing a car updates the plates and available bays.
+    test_overfill_the_car_park(): Ensures overfilling the car park doesn't affect the available bays.
+    test_removing_a_car_that_does_not_exist(): Confirms that removing a non-existent car raises a `ValueError`.
+    test_register_raises_type_error(): Ensures only valid sensors or displays can be registered.
+    test_log_file_created(): Verifies that the log file is created when a new car park instance is initialized.
+    test_car_logged_when_entering(): Confirms the log file records a car's entry.
+    test_car_logged_when_exiting(): Confirms the log file records a car's exit.
+    tearDown(): Cleans up by removing any created test log files.
+
+Usage:
+    Run the tests using the unittest module.
+"""
+
+
 import unittest
 from car_park import CarPark
 from pathlib import Path
-
-
 
 class TestCarPark(unittest.TestCase):
       def setUp(self):
