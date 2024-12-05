@@ -377,11 +377,11 @@ Now consider, between the `CarPark`, `Sensor`, and `Display` classes, which clas
 > 
 >Q. Which class is responsible for the current temperature (and why)?
 > 
-> The Sensor class is responsible for the curren temperature, because the Sensor could also detect the current temperature.
+> The CarPark class is responsible for the current temperature, as the update_display method in the carPark class collects and updates temperature.
 > 
 >Q. Which class is responsible for the time (and why)?
 > 
-> The Display class should be responsible for the time, because it’s logically easy for the Display can have a clock method and display the current time.
+> The CarPark  class should be responsible for the time, because the _log_car_activity method inside the CarPark clss is responsible for managing time.
 >
 --------
 
