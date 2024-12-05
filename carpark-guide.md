@@ -66,8 +66,8 @@ This guide provides detailed step-by-step instructions for completing the projec
 Include a screenshot of your GitHub repository **after** you have pushed your initial commit.
 
 ```markdown
-![Project Structure](C:/TAFE/AT3_project/images/project_structure.png)
-![Initial commit](C:/TAFE/AT3_project/images/initial_commit.png)
+![Project Structure](images/project_structure.png)
+![Initial commit](images/initial_commit.png)
 ```
 
 ### Identify classes, methods, and attributes
@@ -107,7 +107,7 @@ Ensure you have completed the previous table and include at least two methods an
 Include a screenshot of your GitHub repository `src/` directory **after** you have pushed your changes.
 
 ```markdown
-![Added stubs for classes](C:/TAFE/AT3_project/images/added_stubs_for-classes.png)
+![Added stubs for classes](images/added_stubs_for-classes.png)
 ```
 
 ### Add constructors and attributes to the classes
@@ -454,7 +454,7 @@ This time, we will push the tag to the remote repository:
 Add a screenshot of the GitHub repository after pushing the tag, showing the CarPark class with the new methods:
 
 ```markdown
-![Added methods to the car park class](C:/TAFE/AT3_project/images/carpark_methods.png)
+![Added methods to the car park class](images/carpark_methods.png)
 ```
 
 Answer the following questions:
@@ -721,8 +721,8 @@ if __name__ == "__main__":
 1. Add a screenshot of the output of the unit tests. If any failed, add a screenshot of the error message and a screenshot after you have fixed the errors:
 
    ```markdown
-   ![Unit tests Failed](C:/TAFE/AT3_project/images/carpark_test_faild.png)
-   ![Unit tests Passed](C:/TAFE/AT3_project/images/carpark_test_passed.png)
+   ![Unit tests Failed](images/carpark_test_faild.png)
+   ![Unit tests Passed](images/carpark_test_passed.png)
    ```
 
 2. Commit your changes to the local repository. Tag the commit with `s6` so your lecturer can find it:
@@ -781,8 +781,8 @@ Next, we'll create tests for the `Display` class. These tests will test the `__i
 1. Add a screenshot of the output of the unit tests. If any failed, add a screenshot of the error message and a screenshot after you have fixed the errors:
 
    ```markdown
-   ![Unit tests Failed](C:/TAFE/AT3_project/images/display_test_faild.png)
-   ![Unit tests Passed](C:/TAFE/AT3_project/images/display_test_passed.png)
+   ![Unit tests Failed](images/display_test_faild.png)
+   ![Unit tests Passed](images/display_test_passed.png)
    ```
 
 2. Commit your changes to the local repository. Tag the commit with `s7` so your lecturer can find it.
@@ -1052,8 +1052,8 @@ We are going to do the latter:
 After you have merged your branch to main, push to your remote with the s10 tag. Add a screenshot of the GitHub repository after pushing the tag, showing the CarPark class with the new methods:
 
 ```markdown
-![Added methods to the car park class](C:/TAFE/AT3_project/images/carpark_methods2.png)
-![Final Unit Tests Passed](C:/TAFE/AT3_project/images/carpark_test_final_passed.png)
+![Added methods to the car park class](images/carpark_methods2.png)
+![Final Unit Tests Passed](images/carpark_test_final_passed.png)
 ```
 
 ### Final step: build a car park!
@@ -1090,7 +1090,7 @@ In your final submission, you must include any files you created or modified. Th
 1. Add a screenshot of the output of the `main.py` file:
 
    ```markdown
-   ![Main.py output](C:/TAFE/AT3_project/images/mainPy_output.png)
+   ![Main.py output](images/mainPy_output.png)
    ```
 
 2. Commit your changes to the local repository. Tag the commit with `v1`, so your lecturer can find it. Ensure the commit includes the log and config files (though you would typically ignore them).
@@ -1103,9 +1103,9 @@ In your final submission, you must include any files you created or modified. Th
 4. Release your code on GitHub. You can do this by going to the releases section and selecting "Create a new release". Give the release a title ("Project Submission") and description. Then click "Publish release". Include a screenshot of the release:
 
    ```markdown
-   ![Create a release](C:/TAFE/AT3_project/images/create_a_release.png)
+   ![Create a release](images/create_a_release.png)
 
-   ![Publish a release](C:/TAFE/AT3_project/images/publish_a_release.png)
+   ![Publish a release](images/publish_a_release.png)
    ```
 
 5. Congratulations! You have completed the project. You can now submit the assignment via Blackboard. Take the time to reflect on your work and write any notes and observations down.
