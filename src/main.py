@@ -23,11 +23,15 @@ Usage:
 from car_park import CarPark
 from sensor import EntrySensor, ExitSensor
 from display import Display
+import json
 
 
 
 # Create a car park object with the location Moondalup, capacity 100, and log_file "moondalup.txt"
 car_park = CarPark(location="Moondalup", capacity=500, log_file="moondalup_YX.txt")
+
+# write configuration to config.json
+car_park.write_config()  # Saves the car park's configuration
 
 # Create an entry sensor object with id 1, is_active True, and car_park car_park
 entry_sensor = EntrySensor(id=1, is_active=True, car_park=car_park)
